@@ -71,9 +71,9 @@ for time=1:10000
     genes = sortrows(genes, 1);
     
     howManyKill = size(genes,1) - genCount + round(size(genes,1)*killRate); %calculate how many kill
-    
+    j=size(genes,1);
     for c=1:howManyKill
-        genes(size(genes,1)+1-c, :) = [];
+        genes(j+1-c, :) = [];
     end
 
     howManySpawn = genCount - size(genes,1);
