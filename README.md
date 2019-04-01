@@ -1,4 +1,4 @@
-# geneticSortTO
+# TO-Genetic-Sort
 
 This project was developed as part of Numerical Methods course at AGH University Of Science And Technology, written in Matlab.
 
